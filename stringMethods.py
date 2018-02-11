@@ -23,3 +23,16 @@ print(mlfb[0:2])
 #prints a string in reverse....fucking A
 hc = 'Horea Nicolae Cotia'
 print(hc[::-1])
+
+
+
+#split a string into a list of elements
+a = "one two three four"
+i = a.split()
+print(i)
+
+
+#finding out the length of a string
+x=len(a)
+print(x)
+print(len(a))

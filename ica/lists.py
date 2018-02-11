@@ -38,3 +38,13 @@ print(a)
 #Sort the list
 cars.sort()
 print(cars)
+
+num_list = [1, 2, 1, 3, 4, 1, 5]
+print(num_list)
+
+#Counts the number of times that an element can be found in a list
+nl_ct = num_list.count(1)
+print(nl_ct)
+
+#prints the last two elements from the
+print(num_list[-2:])

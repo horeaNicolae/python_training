@@ -18,4 +18,24 @@ def printNumarInvers():
 
     print(listaCifre)
 
+
+def printNumarPeUnitati():
+
+    numar = int(input("Introduceti numarul:"))
+
+    listaCifre = []
+
+    #ultima cifra dintr-un numar e restul impartirii numarului la 10
+    #ex. 951 / 10 = 95 rest 1 => 1 ii ultima cifra
+    #aflam ultima cifra, o punem intr-o lista (mereu pe indexul 0), si o taiem din numarul initial
+    #repetam pana cand numarul initial nu mai exista :D
+    while numar > 0:
+        ultimaCifra = numar % 10
+        listaCifre.insert(0, ultimaCifra)
+        numar = numar // 10
+
+    print(listaCifre)
+
 printNumarInvers()
+
+printNumarPeUnitati()

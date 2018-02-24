@@ -39,3 +39,30 @@ def printNumarPeUnitati():
 printNumarInvers()
 
 printNumarPeUnitati()
+
+
+
+
+
+
+# 7. You look at the clock and it is exactly 2pm. You set an alarm to go off in 51 hours. At
+# what time does the alarm go off? (Hint: you could count on your fingers, but this is not
+# what we’re after. If you are tempted to count on your fingers, change the 51 to 5100.)
+
+# 8. Write a Python program to solve the general version of the above problem. Ask the user
+# for the time now (in hours), and ask for the number of hours to wait. Your program
+# should output what the time will be on the clock when the alarm goes off.
+
+
+
+
+
+import turtle
+window = turtle.Screen()
+alex = turtle.Turtle()
+
+alex.forward(50)
+alex.left(90)
+alex.forward(30)
+
+window.mainloop()

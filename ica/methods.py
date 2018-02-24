@@ -1,25 +1,31 @@
 #with this method, position matters. Te first number used when calling the method (e.g. 12, 33)
 #will be assigned to n1. The second one, to n2.
 
-def sum_nums(n1, n2):
+def div_nums(n1, n2):
     print(n1 / n2)
 
 
-sum_nums(12, 4)
-sum_nums(33, 3)
+div_nums(12, 4)
+div_nums(33, 3)
 
 print('*' * 40)
 
 
 #this method uses optional parameters. If none are provided when calling the method, it has
 #default values
-def sum_nums_optPar(n1=4, n2=2):
+def div_nums_optPar(n1 = 4, n2 = 2):
     return n1 / n2
 
-o = sum_nums_optPar()
-v = sum_nums_optPar(n2=7, n1 = 35)
+#because if has a fallback, you can give all, some, or none of the parameters when calling the method
+o = div_nums_optPar()
+
+v = div_nums_optPar(n2=7, n1 = 35)
+
+p = div_nums_optPar(n2 = 4)
+
 print(o)
 print(v)
+print(p)
 
 
 print('*' * 40)

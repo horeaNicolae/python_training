@@ -1,7 +1,10 @@
 import re
 import random
 
-f = open('products.txt', 'w+')
+f = open('products.txt', 'a
+
+
+         +')
 f.write('UNA+14A00223:+\r\n')
 f.write('UNB+14A00223:+\r\n')
 
